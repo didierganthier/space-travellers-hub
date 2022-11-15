@@ -22,6 +22,12 @@ const missionsSlice = createSlice({
     missions: [],
     error: '',
   },
+  reducers: {
+    joinMission: (state, action) => {
+      const mission = state.missions.find((m) => m.mission_id === action.payload);
+      mission.joined = !mission.joined;
+    },
+  },
   extraReducers: (builder) => {
     builder.addCase(getMissions.pending, (state) => {
       state.loading = true;
@@ -40,3 +46,4 @@ const missionsSlice = createSlice({
 
 export default missionsSlice.reducer;
 export { getMissions };
+export const { joinMission } = missionsSlice.actions;
