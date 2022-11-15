@@ -21,13 +21,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="Nav-bar">
-      <div className="icon-continer">
-        <img src="https://cdn-icons-png.flaticon.com/512/3212/3212567.png" className="logo-image" alt="logo-img" />
+    <nav className="h-16 shadow flex justify-between px-[20px]">
+      <div className="icon-continer flex items-center h-16 my-[4px]">
+        <img src="https://cdn-icons-png.flaticon.com/512/3212/3212567.png" className="w-10 h-10" alt="logo-img" />
         <h1 className="nav-text">Space Traveler&apos;s Hub</h1>
       </div>
 
-      <div className="options-continer">
+      <div className="options-continer flex items-center list-none gap-4">
         {links.map((link) => (
           <li key={link.id}>
             <NavLink className="Nav-bar-element" to={link.path}>{link.text}</NavLink>
