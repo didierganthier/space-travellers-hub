@@ -38,6 +38,7 @@ const Navbar = () => {
             >
               {link.text}
             </NavLink>
+            {link.text === 'Missions' && <span className="pl-4">|</span>}
           </li>
         ))}
       </div>

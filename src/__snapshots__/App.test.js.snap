@@ -40,6 +40,11 @@ Object {
             >
               Missions
             </a>
+            <span
+              class="pl-4"
+            >
+              |
+            </span>
           </li>
           <li>
             <a
@@ -88,6 +93,11 @@ Object {
           >
             Missions
           </a>
+          <span
+            class="pl-4"
+          >
+            |
+          </span>
         </li>
         <li>
           <a
