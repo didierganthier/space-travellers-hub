@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Profile from './components/Profile';
+import Profile from './pages/Profile';
 
 function App() {
   return (
