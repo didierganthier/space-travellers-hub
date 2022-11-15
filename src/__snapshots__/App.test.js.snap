@@ -28,7 +28,7 @@ Object {
           <li>
             <a
               aria-current="page"
-              class="Nav-bar-element active"
+              class="underline"
               href="/"
             >
               Rockets
@@ -36,7 +36,6 @@ Object {
           </li>
           <li>
             <a
-              class="Nav-bar-element"
               href="/Missions"
             >
               Missions
@@ -44,7 +43,6 @@ Object {
           </li>
           <li>
             <a
-              class="Nav-bar-element"
               href="/MyProfile"
             >
               My Profile
@@ -78,7 +76,7 @@ Object {
         <li>
           <a
             aria-current="page"
-            class="Nav-bar-element active"
+            class="underline"
             href="/"
           >
             Rockets
@@ -86,7 +84,6 @@ Object {
         </li>
         <li>
           <a
-            class="Nav-bar-element"
             href="/Missions"
           >
             Missions
@@ -94,7 +91,6 @@ Object {
         </li>
         <li>
           <a
-            class="Nav-bar-element"
             href="/MyProfile"
           >
             My Profile

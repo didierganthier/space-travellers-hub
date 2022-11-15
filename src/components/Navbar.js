@@ -20,6 +20,8 @@ const Navbar = () => {
     },
   ];
 
+  const activeClassName = 'underline';
+
   return (
     <nav className="h-16 shadow flex justify-between px-[20px]">
       <div className="icon-continer flex items-center h-16 my-[4px]">
@@ -30,7 +32,12 @@ const Navbar = () => {
       <div className="options-continer flex items-center list-none gap-4">
         {links.map((link) => (
           <li key={link.id}>
-            <NavLink className="Nav-bar-element" to={link.path}>{link.text}</NavLink>
+            <NavLink
+              to={link.path}
+              className={({ isActive }) => (isActive ? activeClassName : undefined)}
+            >
+              {link.text}
+            </NavLink>
           </li>
         ))}
       </div>
