@@ -6,12 +6,11 @@ const getMissions = createAsyncThunk('missions/GetMissions', async () => {
   const missiondata = await fetchMission().then((data) => data);
   const missions = [];
   missiondata.forEach((mission) => {
-    const object = {
+    missions.push({
       mission_id: mission.mission_id,
       mission_name: mission.mission_name,
       description: mission.description,
-    };
-    missions.push(object);
+    });
   });
   return missions;
 });
