@@ -4,10 +4,9 @@ import { getMissions } from '../redux/missions/missionSlice';
 
 const Profile = () => {
   const dispatch = useDispatch();
-  const missions = useSelector((state) => state.reducer.missions);
+  const missions = useSelector((state) => state.missions.missions);
 
   useEffect(() => {
-    // Check if a mission has been joined
     if (missions.length === 0) {
       dispatch(getMissions());
     }
