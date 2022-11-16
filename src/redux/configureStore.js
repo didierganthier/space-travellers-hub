@@ -1,15 +1,13 @@
 /* eslint-disable import/extensions */
-import { configureStore, applyMiddleware } from '@reduxjs/toolkit';
-import thunk from 'redux-thunk';
-import logger from 'redux-logger';
+import { configureStore } from '@reduxjs/toolkit';
 import reducer from './missions/missionSlice.js';
-
-const middlewares = [logger, thunk];
+import rocketreducer from './rockets/rocketsSlice';
 
 const store = configureStore({
   reducer: {
-    reducer,
+    missions: reducer,
+    rockets: rocketreducer,
   },
-}, applyMiddleware(...middlewares));
+});
 
 export default store;

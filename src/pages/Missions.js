@@ -4,7 +4,7 @@ import { getMissions, joinMission } from '../redux/missions/missionSlice';
 
 const Missions = () => {
   const dispatch = useDispatch();
-  const missions = useSelector((state) => state.reducer.missions);
+  const missions = useSelector((state) => state.missions.missions);
 
   if (missions.length === 0) {
     setTimeout(() => {
