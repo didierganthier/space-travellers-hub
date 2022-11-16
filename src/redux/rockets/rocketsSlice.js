@@ -10,6 +10,7 @@ const getRockets = createAsyncThunk('rocket/GetRockets', async () => {
       rocket_id: rocket.rocket_id,
       rocket_name: rocket.rocket_name,
       description: rocket.description,
+      flickr_images: rocket.flickr_images,
     });
   });
   return rockets;

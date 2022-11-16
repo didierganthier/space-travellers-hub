@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getRockets, joinRocket } from '../redux/rockets/rocketsSlice';
 
@@ -6,11 +6,11 @@ const Rockets = () => {
   const dispatch = useDispatch();
   const rockets = useSelector((state) => state.rockets.rockets);
 
-  if (rockets.length === 0) {
-    setTimeout(() => {
+  useEffect(() => {
+    if (rockets.length === 0) {
       dispatch(getRockets());
-    }, '1000');
-  }
+    }
+  }, [dispatch, rockets.length]);
 
   const handleClick = (rocketId) => {
     dispatch(joinRocket(rocketId));
@@ -35,17 +35,17 @@ const Rockets = () => {
               {rocket.rocket_name}
             </th>
             <th>
-              {rocket.description}
+              <img src={rocket.flickr_images[0]} alt={rocket.rocket_name} />
             </th>
             <th>
-              {rocket.joined ? 'Active Member' : 'NOT A MEMBER'}
+              {rocket.description}
             </th>
             <th>
               <button
                 type="button"
                 onClick={() => handleClick(rocket.rocket_id)}
               >
-                {rocket.joined ? 'Leave Rocket' : 'Join Rocket'}
+                {rocket.joined ? 'Cancel Reservation' : 'Reserve Rocket'}
               </button>
             </th>
           </tr>
