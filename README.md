@@ -55,8 +55,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Space Travellers Hub <a name="about-project"></a>
 
-> Working with the real live data from the SpaceX API. Building a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
-
 **Space Travellers Hub** is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -64,8 +62,6 @@ After you're finished please remove all the comments and instructions!
 ### <a name="tech-stack">React</a>
 ### <a name="tech-stack">Redux</a>
 ### <a name="tech-stack">Tailwind</a>
-
-> Built with React. Tailwind is used for styling and Redux is used for state management.
 
 <details>
   <summary>Client</summary>
@@ -92,8 +88,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> - Fetch Missions, Fetch Rockets, Join Missions, Leave Missions, Book Rocket, Cancel Rocket Booking**.
-
 - **Fetch Missions**
 - **Fetch Rockets**
 - **Join Missions**
@@ -107,17 +101,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -171,8 +161,6 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 Didier Ganthier
 
 - GitHub: [@didierganthier](https://github.com/didierganthier)
@@ -201,9 +189,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project give it a star ⭐️ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,9 +197,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+> N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
