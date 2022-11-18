@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders learn react link 1`] = `
+exports[`renders App 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
