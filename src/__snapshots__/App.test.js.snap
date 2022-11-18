@@ -55,26 +55,7 @@ Object {
           </li>
         </div>
       </nav>
-      <table>
-        <thead>
-          <tr>
-            <th>
-              Rocket
-            </th>
-            <th>
-              Description
-            </th>
-            <th>
-              Status
-            </th>
-            <th
-              class="text-white"
-            >
-              Empty
-            </th>
-          </tr>
-        </thead>
-      </table>
+      <div />
     </div>
   </body>,
   "container": <div>
@@ -128,26 +109,7 @@ Object {
         </li>
       </div>
     </nav>
-    <table>
-      <thead>
-        <tr>
-          <th>
-            Rocket
-          </th>
-          <th>
-            Description
-          </th>
-          <th>
-            Status
-          </th>
-          <th
-            class="text-white"
-          >
-            Empty
-          </th>
-        </tr>
-      </thead>
-    </table>
+    <div />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
